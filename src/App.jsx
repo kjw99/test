@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import BooleanComponentApp from './03/BooleanComponentApp';
+import Input from './03/Input';
 import './App.css';
 
 class App extends Component {
@@ -8,7 +8,7 @@ class App extends Component {
       // <div className="App">
       //   <hi className="title">화이팅 컴소</hi>
       // </div>
-      <BooleanComponentApp/>
+      <Input/>
     );
   }
 }
